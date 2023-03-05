@@ -1,0 +1,68 @@
+body{
+    background-color: azure;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 500px;
+    height: 50px;
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 20, 134);;
+}
+
+td,
+tr {
+    border: 2px solid rgb(0, 20, 134);
+    width: 100px;
+    padding: 10px;
+}
+
+th {
+    border: 2px solid rgb(0, 20, 134);
+    width: 98px;
+    padding: 10px;
+}
+.block-shops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color: rgb(10, 10, 170);
+    
+}
+.block-NewShop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    margin-bottom: 20px;
+    width: 150px;
+    height: 25px;
+    border: 2px solid rgb(0, 20, 134);
+    border-radius: 7px;
+    color: rgb(0, 20, 134);
+}
+.checkbox{
+    border: 2px solid rgb(0, 20, 134);
+    border-radius: 7px;
+}
+button{
+    width: 150px;
+    height: 25px;
+    border: 2px solid rgb(7, 33, 179);
+    background-color: rgb(0, 20, 134);
+    border-radius: 7px;
+    color: aliceblue;
+}
+label{
+    color: rgb(0, 20, 134);
+}
+h1{
+    color: rgb(0, 20, 134);
+    margin: 20px;
+}
